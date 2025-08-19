@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Profile from "./pages/Profile";
-import Chat from "./pages/Chat";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import MainLayout from "./layouts/MainLayout";
-import Job from "./pages/Job";
+import Profile from "./pages/Profile.jsx";
+import Chat from "./pages/Chat.jsx";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
+import MainLayout from "./layouts/MainLayout.jsx";
+import Job from "./pages/Job.jsx";
 
 export default function App() {
   return (
